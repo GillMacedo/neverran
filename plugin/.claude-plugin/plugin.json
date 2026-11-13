@@ -1,0 +1,13 @@
+{
+  "name": "neverran",
+  "version": "0.1.0",
+  "description": "Find the Go tests your CI never ran: nested modules that go test ./... skips, files behind build tags or for other platforms, packages left out of the pattern, a TestMain that exits before m.Run, and tests skipped in every run. Reads go test -json output and the source tree.",
+  "author": {
+    "name": "Giulliano Macedo",
+    "url": "https://github.com/GillMacedo"
+  },
+  "homepage": "https://github.com/GillMacedo/neverran",
+  "repository": "https://github.com/GillMacedo/neverran",
+  "license": "MIT",
+  "keywords": ["go", "golang", "testing", "go-test", "ci", "github-actions", "test-coverage", "build-tags", "go-modules", "monorepo"]
+}

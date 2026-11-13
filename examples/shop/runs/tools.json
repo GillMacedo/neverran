@@ -1,0 +1,12 @@
+{"Time":"2026-11-13T15:35:26.709758257Z","Action":"start","Package":"example.com/shop/tools/lint"}
+{"Time":"2026-11-13T15:35:26.710920757Z","Action":"run","Package":"example.com/shop/tools/lint","Test":"TestValidSKU"}
+{"Time":"2026-11-13T15:35:26.710951674Z","Action":"output","Package":"example.com/shop/tools/lint","Test":"TestValidSKU","Output":"=== RUN   TestValidSKU\n","OutputType":"frame"}
+{"Time":"2026-11-13T15:35:26.710966965Z","Action":"output","Package":"example.com/shop/tools/lint","Test":"TestValidSKU","Output":"--- PASS: TestValidSKU (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-13T15:35:26.71096934Z","Action":"pass","Package":"example.com/shop/tools/lint","Test":"TestValidSKU","Elapsed":0}
+{"Time":"2026-11-13T15:35:26.710974965Z","Action":"run","Package":"example.com/shop/tools/lint","Test":"ExampleValidSKU"}
+{"Time":"2026-11-13T15:35:26.71097609Z","Action":"output","Package":"example.com/shop/tools/lint","Test":"ExampleValidSKU","Output":"=== RUN   ExampleValidSKU\n","OutputType":"frame"}
+{"Time":"2026-11-13T15:35:26.710980174Z","Action":"output","Package":"example.com/shop/tools/lint","Test":"ExampleValidSKU","Output":"--- PASS: ExampleValidSKU (0.00s)\n","OutputType":"frame"}
+{"Time":"2026-11-13T15:35:26.710983215Z","Action":"pass","Package":"example.com/shop/tools/lint","Test":"ExampleValidSKU","Elapsed":0}
+{"Time":"2026-11-13T15:35:26.710984257Z","Action":"output","Package":"example.com/shop/tools/lint","Output":"PASS\n","OutputType":"frame"}
+{"Time":"2026-11-13T15:35:26.71121209Z","Action":"output","Package":"example.com/shop/tools/lint","Output":"ok  \texample.com/shop/tools/lint\t0.001s\n"}
+{"Time":"2026-11-13T15:35:26.712427715Z","Action":"pass","Package":"example.com/shop/tools/lint","Elapsed":0.003}

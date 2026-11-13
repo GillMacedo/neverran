@@ -1,0 +1,14 @@
+{
+  "name": "neverran-marketplace",
+  "description": "Marketplace for neverran, which lists the Go tests that no go test -json run in your CI ran or that every run skipped.",
+  "owner": {
+    "name": "Giulliano Macedo"
+  },
+  "plugins": [
+    {
+      "name": "neverran",
+      "source": "./plugin",
+      "description": "Find Go tests CI never ran: nested modules, build-tagged and platform files, packages left out, TestMain early exits, and tests skipped in every run."
+    }
+  ]
+}
